@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "PoppinsBold";
+    src: url(../Fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../Fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: "UbuntuBold";
+    src: url(../Fonts/Ubuntu/Ubuntu-Bold.ttf);
+}

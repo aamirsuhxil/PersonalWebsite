@@ -1,0 +1,164 @@
+
+html,body{
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+@media screen and (max-width: 968px){
+:root{
+    --pd-l: 1rem;
+    --pd-t: 0rem;
+
+
+    --primary-color: rgb(34, 165, 165);
+    --secondary-color: hsl(158, 58%, 39%) ;
+    --title-color: hsl(180, 1%, 15%);
+    --text-color: hsl(180, 2%, 27%);
+    --text-color-2: hsl(195, 2%, 51%) ;
+    --border-color: rgb(34, 165, 165);
+    --gradient-color: linear-gradient(151deg, rgba(0,128,128,1) 43%, rgba(60,166,166,1) 100%);
+    --shadow-color: hsl(216, 4%, 25%);
+    --box-shadow:  hsl(180, 1%, 15%);
+    --ubuntu: "Ubuntu", cursive;
+    --ubuntubold: "UbuntuBold", cursive;
+
+    --poppins: "Poppins", cursive;
+    --poppinsbold: "PoppinsBold", cursive; 
+
+    
+    --letter-spacing: 0.5rem;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+
+    --mrg-t: 1.5rem;
+
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    text-align: center;
+    align-content: center;
+
+    --mb-0-25: 0.25rem;
+    --mb-0-50: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+}
+@media screen and (min-width: 968px)  {
+    :root{
+    --primary-color: rgb(34, 165, 165);
+    --secondary-color: hsl(158, 58%, 39%) ;
+    --title-color: hsl(180, 1%, 15%);
+    --text-color: hsl(180, 2%, 27%);
+    --text-color-2: hsl(195, 2%, 51%) ;
+    --border-color: rgb(34, 165, 165);
+    --gradient-color: linear-gradient(151deg, rgba(0,128,128,1) 43%, rgba(60,166,166,1) 100%);
+    --shadow-color: hsl(216, 4%, 25%);
+    --box-shadow:  hsl(180, 1%, 15%);
+    --ubuntu: "Ubuntu", cursive;
+    --ubuntubold: "UbuntuBold", cursive;
+    
+    --poppins: "Poppins", cursive;
+    --poppinsbold: "PoppinsBold", cursive; 
+    
+    --mrg-t: 3.5rem;
+
+    --pd-l: 5rem;
+    --pd-t: 3.5rem;
+
+
+
+    --header-height: 3rem;
+    --letter-spacing: 1.125rem;
+    --big-font-size: 5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+
+    }
+
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--poppins);
+    font-size: var(--poppins);
+    background-color: whitesmoke;
+    color: var(--text-color);
+}
+
+h1,h2,h3,h4{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* section{
+     padding: 2rem 0 4rem;
+} */
+/* .section__title{
+    font-size: var(--h1-font-size);
+}
+.section__subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
+.section__title,.section__subtitle{
+    text-align: center;
+} */
+
+/* .container{
+    max-width: 768px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+} */
+/* .grid{
+    display: grid;
+    gap: 1.5rem;
+
+} */

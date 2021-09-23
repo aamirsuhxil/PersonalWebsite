@@ -1,0 +1,15 @@
+@import url(./font.css);
+
+@import url(./variables/_variables.css);
+
+@import url(./global.css);
+
+
+.header{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: whitesmoke;
+}
